@@ -1,0 +1,1 @@
+แก้ไขไฟล์ noteapp.py บรรทัดที่ 12 เป็น "postgresql://postgres:admin@localhost:5432/postgres" เนื่องจากตอนที่ลง postgresql ได้ตั้งรหัสไว้ไม่ตรงกับที่กำหนดไว้ในไฟล์ก่อนหน้านี้
