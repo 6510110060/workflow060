@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<h3 class="my-2">Edit Tag</h3>
+<p>แก้ไขแท็ก "{{ tag.name }}"</p>
+<form action="" method="POST">
+  <div class="form-group my-3">
+    {{ form.name.label }}
+    {{ form.name(class_='form-control') }}
+  </div>
+  <button type="submit" class="btn btn-primary">Update</button>
+
+  <a class="btn btn-primary" href="{{ url_for('index') }}">Cancel</a>
+</form>
+
+{% endblock %}
